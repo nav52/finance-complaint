@@ -1,4 +1,14 @@
 # Finance-Complaint 
+
+Financial Companies deal with grievance registration and complaint portals on a daily basis.
+The sheer volume of the complaints makes it hard for the companies to immediately attend to the urgent and important queries.
+This project focuses on gathering the complaint data and classify them based on the sererity in order to aid the company and its employees to attend the most grievent customer on priority.
+
+Data is gathered from [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+Data is read from thier API between the dates on monthly basis and stored in Amazon S3.
+The feature store is created with the parquet files of the successfully downloaded files.
+
 ## Deployment Setup
 
 ```yaml

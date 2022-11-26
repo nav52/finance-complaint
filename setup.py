@@ -5,7 +5,7 @@ from typing import List
 PROJECT_NAME = "finance-complaint"
 VERSION = "0.0.1"
 AUTHOR = "Naveen Karanth"
-DESRCIPTION = "This is an end-to end project for complaint severity classification"
+DESRCIPTION = "This is an end-to end project for Complaint Severity classification"
 
 REQUIREMENT_FILE_NAME = "requirements.txt"
 
