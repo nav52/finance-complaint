@@ -16,7 +16,7 @@ WORKDIR /app/
 RUN pip3 install -r requirements.txt
 
 RUN airflow db init 
-RUN airflow users create  -e avnish@ineuron.ai -f Avnish -l Yadav -p admin -r Admin  -u admin
+RUN airflow users create  -e naveenfaster@gmail.com -f Naveen -l Karanth -p admin -r Admin -u admin
 
 # RUN rm airflow/airflow.cfg
 # COPY airflow/airflow.cfg airflow/airflow.cfg
