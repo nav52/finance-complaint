@@ -51,7 +51,7 @@ jobs:
 
   continuous-deployment:
     machine: true
-    resource_class: ketangangal/self-hosted
+    resource_class: nav52/self-hosted
     environment:
       REPOSITORY: finance-complaint
       GAR_IMAGE_NAME: finance-complaint
