@@ -48,6 +48,6 @@ if __name__ == "__main__":
 
         main(training_status=args.t, prediction_status=args.p)
     except Exception as e:
-        print(e)
+        print(f"Error:{e}")
         pass
         logger.exception(FinanceException(e, sys))
