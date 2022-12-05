@@ -53,7 +53,7 @@ jobs:
     machine: true
     resource_class: nav52/self-hosted
     environment:
-      REPOSITORY: finance-complaint
+      REPOSITORY: finance-repository
       GAR_IMAGE_NAME: finance-complaint
       IMAGE_TAG: latest
       AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
