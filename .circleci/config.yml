@@ -21,7 +21,7 @@ jobs:
       - image: google/cloud-sdk
     resource_class: medium
     environment:
-      REPOSITORY: finance-complaint
+      REPOSITORY: finance-repository
       IMAGE_NAME: finance-complaint
       IMAGE_TAG: latest
     steps:
