@@ -22,7 +22,7 @@ sudo apt install docker-compose
 
 ### Add cloud user to docker group
 ```
-sudo usermod -aG docker cloud
+sudo usermod -aG docker <<username>>
 newgrp docker
 ```
 ### Download the launch agent binary and verify the checksum
