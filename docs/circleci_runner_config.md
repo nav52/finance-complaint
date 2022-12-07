@@ -2,7 +2,7 @@
 
 Do this on the VM to configure the self-hosted runner of Circle CI on the VM
 
-[NOTE]: You must have self-hosted runner on Circle CI and have its API AUTH KEY.
+[NOTE]: You must have self-hosted runner created on Circle CI and have its API AUTH KEY.
 ### Setup Docker and update system
 ```
 sudo apt-get update
