@@ -53,7 +53,7 @@ api:
     auth_token: AUTH_TOKEN
 
 runner:
-    name: RUNNER_NAME
+    name: self-hosted
     working_directory: /var/opt/circleci/workdir
     cleanup_working_directory: true
 ```
